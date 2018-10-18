@@ -1,0 +1,13 @@
+Layout/EndOfLine:
+  EnforcedStyle: crlf
+Documentation:
+  Enabled: false
+AllCops:
+  Exclude:
+    - Rakefile
+    - config.ru
+    - db/**
+    - config/**
+    - script/**
+    - trains_on_rails.gemspec
+    - bin/**
